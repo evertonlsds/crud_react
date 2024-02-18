@@ -2,7 +2,7 @@ import './App.css'
 
 export function App() {
     return (
-    <h1>Hello Word</h1>
+    <h1>new software</h1>
   )
 }
 
