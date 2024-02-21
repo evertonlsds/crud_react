@@ -1,10 +1,13 @@
 import { Label } from '@radix-ui/react-label'
 import { Helmet } from 'react-helmet-async'
+import { useForm } from 'react-hook-form'
 
 import { Button } from '@/components/ui/button'
 import { Input } from '@/components/ui/input'
 
 export function SingIn() {
+  const { register, handleSubmit } = useForm()
+
   return (
     <>
       <Helmet title="Login" />
