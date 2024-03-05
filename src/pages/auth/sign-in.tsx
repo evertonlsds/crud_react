@@ -1,4 +1,4 @@
-import { Ghost } from 'lucide-react'
+// import { Ghost } from 'lucide-react'
 import { Helmet } from 'react-helmet-async'
 import { useForm } from 'react-hook-form'
 import { Link } from 'react-router-dom'
@@ -52,7 +52,7 @@ export function SignIn() {
           </div>
           <form onSubmit={handleSubmit(handleSignIn)} className="space-y-4">
             <div className="space-y-2 font-semibold">
-              <Label htmlFor="email">Usuário</Label>
+              <Label htmlFor="email">Email</Label>
               <Input id="email" type="email" {...register('email')} />
             </div>
 
